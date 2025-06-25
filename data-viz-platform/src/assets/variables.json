@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Variable category 1",
+    "variables": [
+      {
+        "id": 1,
+        "name": "Carbon 1",
+        "active": false,
+        "tags": ["Carbon", "CO2"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 2,
+        "name": "Co2 Distribution",
+        "active": false,
+        "tags": ["CO2", "Distribution"],
+        "context": "But what truly sets Switch apart is its versatility. It can be used as a scooter, a bike, or even a skateboard, making it suitable for people of all ages. Whether you're a student, a professional, or a senior citizen, Switch adapts to your needs and lifestyle."
+      },
+      {
+        "id": 3,
+        "name": "Fleet sizing",
+        "active": false,
+        "tags": ["Fleet", "Sizing"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  {
+    "name": "Variable category 2",
+    "variables": [
+      {
+        "id": 4,
+        "name": "Parking Rate",
+        "active": false,
+        "tags": ["Parking", "Rate"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 5,
+        "name": "Border Rate",
+        "active": false,
+        "tags": ["Border", "Rate"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 6,
+        "name": "Request rate",
+        "active": false,
+        "tags": ["Request", "Rate"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 7,
+        "name": "Variable 1",
+        "active": false,
+        "tags": ["Variable"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 8,
+        "name": "Variable 1",
+        "active": false,
+        "tags": ["Variable"]
+      },
+      {
+        "id": 9,
+        "name": "Variable 1",
+        "active": false,
+        "tags": ["Variable"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  },
+  {
+    "name": "Variable category 3",
+    "variables": [
+      {
+        "id": 10,
+        "name": "Variable 1",
+        "active": false,
+        "tags": ["Variable"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 11,
+        "name": "Variable 1",
+        "active": false,
+        "tags": ["Variable"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": 12,
+        "name": "Variable 1",
+        "active": false,
+        "tags": ["Variable"],
+        "context": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  }
+]

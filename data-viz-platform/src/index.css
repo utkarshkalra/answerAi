@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Roobert Mono";
+  src: url("./assets/fonts/roobert-font/RoobertTRIAL-Medium-BF67243fd53e059.otf")
+    format("opentype");
+}
+
+@theme {
+  --color-page-background: #0e0d0d;
+  --color-dashboard-background: #161618;
+  --color-header-btn-bg: #242424;
+  --color-i4: #c8e972;
+  --color-i6: #dafd7f;
+  --color-text-color: #ffffff;
+  --color-text-secondary-color: #bbbbbb;
+  --color-card-border: #525252;
+  --color-button-border: #5a5a5a;
+  --color-graph-background: #222327;
+}
+
+.roobert-font {
+  font-family: "Roobert Mono", monospace;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.rerun-inner-shadow {
+  box-shadow: inset 0 0 12.7px 0 rgba(255, 255, 255, 0.05);
+}
