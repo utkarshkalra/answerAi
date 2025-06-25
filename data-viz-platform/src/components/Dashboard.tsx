@@ -24,7 +24,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     const fetchVariables = async () => {
-      const response = await fetch(". variables.json");
+      const response = await fetch("./src/assets/variables.json");
       const data = await response.json();
       setVariables(data);
     };
