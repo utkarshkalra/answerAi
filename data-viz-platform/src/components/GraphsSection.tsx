@@ -88,7 +88,7 @@ const GraphsSection = () => {
             <option>Charging Stations </option>
           </select>
         </div>
-        <div style={{ width: "100%", height: "87%" }}>
+        <div style={{ width: "100%", height: "80%" }}>
           <ResponsiveContainer>
             <LineChart data={data}>
               <CartesianGrid strokeDasharray="3 3" stroke="#363637" />
