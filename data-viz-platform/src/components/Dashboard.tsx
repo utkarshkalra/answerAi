@@ -24,7 +24,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     const fetchVariables = async () => {
-      const response = await fetch("./src/assets/variables.json");
+      const response = await fetch(". variables.json");
       const data = await response.json();
       setVariables(data);
     };
@@ -37,21 +37,21 @@ const Dashboard = () => {
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-3xl  font-bold flex items-center roobert-font">
             <span className="mr-3">
-              <img src="/src/assets/icons/lightning-bolt.png" alt="bolt" />
+              <img src=" icons/lightning-bolt.png" alt="bolt" />
             </span>
             Charging Station
           </h1>
           <div className="flex items-center space-x-4">
             <Button active={true} onClick={() => {}}>
-              <img src="/src/assets/icons/history.svg" alt="refresh" />
+              <img src=" icons/history.svg" alt="refresh" />
             </Button>
             <Button active={true} onClick={() => setShowEditModal(true)}>
               Edit Variables
             </Button>
             <Button active={true} onClick={() => {}}>
               <div className="flex flex-col items-center justify-center">
-                <img src="/src/assets/icons/Arrow21.svg" alt="upload" />
-                <img src="/src/assets/icons/Vector10.svg" alt="upload" />
+                <img src=" icons/Arrow21.svg" alt="upload" />
+                <img src=" icons/Vector10.svg" alt="upload" />
               </div>
             </Button>
           </div>

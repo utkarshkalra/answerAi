@@ -43,7 +43,7 @@ const GraphsSection = () => {
           <h1 className="text-white text-xl font-bold flex items-center gap-2">
             {`$${((payload[0].value as number) * 1.0) / 1000}k`}
             <span>
-              <img src="/src/assets/icons/info.svg" alt="info" />
+              <img src=" icons/info.svg" alt="info" />
             </span>
           </h1>
           <p className="text-base font-normal text-[#878787] flex items-center gap-2 mt-3">

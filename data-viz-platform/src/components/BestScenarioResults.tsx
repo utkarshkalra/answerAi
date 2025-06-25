@@ -8,7 +8,7 @@ const BestScenarioResults = () => {
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-sans font-bold flex items-center text-[#ddff7f]  roobert-font">
           <span className="text-color-4 mr-2">
-            <img src="/src/assets/icons/sparkle.svg" alt="star" />
+            <img src=" icons/sparkle.svg" alt="star" />
           </span>
           Best Scenario Results
         </h2>
@@ -23,7 +23,7 @@ const BestScenarioResults = () => {
               poles.
             </p>
             <button className="text-color-textSecondary flex items-center">
-              <img src="/src/assets/icons/dots.svg" alt="dots" />
+              <img src=" icons/dots.svg" alt="dots" />
             </button>
           </div>
           <div className="bg-color-2  px-4 py-3 rounded-lg flex justify-between items-center border-[0.5px] border-[#ddff7f]">
@@ -33,7 +33,7 @@ const BestScenarioResults = () => {
               total number of poles.
             </p>
             <button className="text-color-textSecondary flex items-center">
-              <img src="/src/assets/icons/dots.svg" alt="dots" />
+              <img src=" icons/dots.svg" alt="dots" />
             </button>
           </div>
         </div>

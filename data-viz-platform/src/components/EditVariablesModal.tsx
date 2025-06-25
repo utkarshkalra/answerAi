@@ -110,7 +110,7 @@ const EditVariablesModal: React.FC<EditVariablesModalProps> = ({
             </div>
             <div className="rounded bg-gradient-to-b from-[#C8E972] to-[#577113] p-[0.67px] ">
               <div className="px-4 py-2 flex items-center justify-center bg-[#23291E] rounded rerun-inner-shadow">
-                <img src="/src/assets/icons/reload.svg" alt="rerun" />
+                <img src=" icons/reload.svg" alt="rerun" />
 
                 <button className="text-[#C9FF3B] rounded ml-4">Rerun</button>
               </div>

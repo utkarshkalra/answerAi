@@ -12,7 +12,7 @@ const KpiCard: React.FC<KpiCardProps> = ({ title, value, description }) => {
       <div className="flex justify-between items-start mb-2">
         <h3 className="font-medium font-sans">{title}</h3>
         <span>
-          <img src="/src/assets/icons/info.svg" alt="info" />
+          <img src=" icons/info.svg" alt="info" />
         </span>
       </div>
       <p className="text-xs text-text-secondary-color">{description}</p>

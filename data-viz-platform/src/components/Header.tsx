@@ -34,7 +34,7 @@ const Header = () => {
       </div>
       <div className="flex items-center gap-2 bg-[#2C2E334D] p-2 rounded-md border border-button-border overflow-hidden">
         <div>
-          <img src="/src/assets/icons/search.svg" alt="search" />
+          <img src=" icons/search.svg" alt="search" />
         </div>
         <input
           type="text"
