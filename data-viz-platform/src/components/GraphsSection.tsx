@@ -1,14 +1,11 @@
-import React from "react";
 import {
+  LineChart,
   Line,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
-  ComposedChart,
-  Bar,
 } from "recharts";
 import type { DotProps } from "recharts";
 import type { TooltipProps } from "recharts";
@@ -93,12 +90,11 @@ const GraphsSection = () => {
         </div>
         <div style={{ width: "100%", height: "87%" }}>
           <ResponsiveContainer>
-            <ComposedChart data={data}>
+            <LineChart data={data}>
               <CartesianGrid strokeDasharray="3 3" stroke="#363637" />
               <XAxis dataKey="name" stroke="#575757" />
               <YAxis stroke="#575757" />
               <Tooltip content={CustomTooltip} />
-              <Legend />
               <Line
                 type="linear"
                 dataKey="pv"
@@ -122,9 +118,7 @@ const GraphsSection = () => {
                   );
                 }}
               />
-
-              <Bar dataKey="pv" barSize={2} fill="#8AA14F33" />
-            </ComposedChart>
+            </LineChart>
           </ResponsiveContainer>
         </div>
       </div>

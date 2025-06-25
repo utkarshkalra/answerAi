@@ -1,5 +1,3 @@
-import React from "react";
-
 const Sidebar = () => {
   const activeClass =
     "border border-color-[#525252] bg-[#FFFFFF1A] rounded-xl border-card-border";

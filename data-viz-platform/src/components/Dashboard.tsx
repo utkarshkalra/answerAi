@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import BestScenarioResults from "./BestScenarioResults";
 import Button from "./Button";
 import GraphsSection from "./GraphsSection";
